@@ -4,10 +4,10 @@ require_relative 'models/puppy'
 class App < Sinatra::Base
 
 
- get '/' do 
+ get '/' do
    erb :index
  end
- post '/puppy' do 
-   
+ post '/puppy' do
+
  end
 end
