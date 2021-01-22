@@ -5,7 +5,7 @@ class Puppy
 attr_accessor :name, :age, :breed
 
 
-def initializate(args)
+def initializate
   @name = args['name']
   @age = args['age']
   @breed = args['breed']
