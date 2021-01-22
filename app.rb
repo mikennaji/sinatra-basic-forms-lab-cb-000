@@ -8,10 +8,10 @@ class App < Sinatra::Base
    erb :index
  end
 
- get '/create' do 
+ get '/create' do
    erb :create_puppy
  end
- 
+
  post '/puppy' do
    @puppy = Puppy.new
    @puppy.name = params[:name]
