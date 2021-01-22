@@ -2,7 +2,7 @@
 
 class Puppy 
 
-attr_accessor :name, :age, :breed
+aattr_accessor :name, :age, :breed
 
 
 def initializate(args)
